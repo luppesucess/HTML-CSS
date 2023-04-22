@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header, main, footer {
+            box-shadow: 3px 5px 4px 1px rgba(0, 0, 0, 0.411);
+            
+        }
+
+        header, main /*Border Radius */ {
+            border-radius: 5px;
+        }
+
+        header {            
+            background-color: white;
+            padding: 10px;
+            margin: 10px;        
+        }
+
+        nav {
+            background-color: rgb(83, 82, 82);
+            padding: 3px;
+            box-shadow: 3px 3px 3px  #00000048;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-left: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;            
+        }
+
+        section#assuntos {   
+            font-weight: bold;
+            background-color: rgb(108, 218, 218);              
+        } 
+        
+        section#assuntos > p > a {
+            color: black;
+            text-decoration: none;
+            margin-left: 100px;                                  
+        }
+
+        section#assuntos > p > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(151, 148, 148);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>    
+    <header>
+        <h1>Meu Site</h1>
+        <nav>                        
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>
+              <a href="#">Link</a>             
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><a href="#">Esportes</a> <a href="#">Política</a> <a href="#">Tecnologia</a></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, doloribus veniam! In amet, illum sequi dolor aliquam totam, commodi, quasi voluptates odit est sunt asperiores rerum. Ipsa ad quod ullam?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Luppe!</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    height: 100;
+}
+
+.titulo1 {
+    text-align: center;
+    background-color: #0000002a;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(
+        to top,#0FC2C0,#0CABA8, #008F8C, #015958,#023535  
+    );   
+    color: black;
+    background-attachment: fixed;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+
+/* Color Theme Swatches in Hex */
+.Teals-1-hex { color: #0FC2C0; }
+.Teals-2-hex { color: #0CABA8; }
+.Teals-3-hex { color: #008F8C; }
+.Teals-4-hex { color: #015958; }
+.Teals-5-hex { color: #023535; }
+
+
