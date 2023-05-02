@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de Fundo</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color:  black;
             background-image: url(wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* Color > image > position > repeat > size (Não funcional no chrome) > attachment */
+
+             background: black url(wallpaper002.jpg) center top no-repeat fixed;
+             background-size: cover; 
+
+
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +35,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos at voluptatem sed amet, adipisci aperiam neque reprehenderit possimus a repudiandae, iste natus excepturi nemo blanditiis unde officiis molestias aut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga architecto perferendis minus officiis sequi repellat voluptas dolor ipsam voluptatum placeat, ex dolores molestiae quibusdam unde earum, repellendus corporis! Dicta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In temporibus inventore expedita, exercitationem magnam laboriosam optio ab, aut vitae, recusandae fugit totam illo. Eum nemo reprehenderit nostrum natus ex. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos at voluptatem sed amet, adipisci aperiam neque reprehenderit possimus a repudiandae, iste natus excepturi nemo blanditiis unde officiis molestias aut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga architecto perferendis minus officiis sequi repellat voluptas dolor ipsam voluptatum placeat, ex dolores molestiae quibusdam unde earum, repellendus corporis! Dicta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In temporibus inventore expedita, exercitationem magnam laboriosam optio ab, aut vitae, recusandae fugit totam illo. Eum nemo reprehenderit nostrum natus ex. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos at voluptatem sed amet, adipisci aperiam neque reprehenderit possimus a repudiandae, iste natus excepturi nemo blanditiis unde officiis molestias aut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga architecto perferendis minus officiis sequi repellat voluptas dolor ipsam voluptatum placeat, ex dolores molestiae quibusdam unde earum, repellendus corporis! Dicta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In temporibus inventore expedita, exercitationem magnam laboriosam optio ab, aut vitae, recusandae fugit totam illo. Eum nemo reprehenderit nostrum natus ex. Alias!</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos at voluptatem sed amet, adipisci aperiam neque reprehenderit possimus a repudiandae, iste natus excepturi nemo blanditiis unde officiis molestias aut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga architecto perferendis minus officiis sequi repellat voluptas dolor ipsam voluptatum placeat, ex dolores molestiae quibusdam unde earum, repellendus corporis! Dicta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In temporibus inventore expedita, exercitationem magnam laboriosam optio ab, aut vitae, recusandae fugit totam illo. Eum nemo reprehenderit nostrum natus ex. Alias!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos at voluptatem sed amet, adipisci aperiam neque reprehenderit possimus a repudiandae, iste natus excepturi nemo blanditiis unde officiis molestias aut explicabo! Lorem ipsum dolor sit amet consectetur adipisicing elit. In fuga architecto perferendis minus officiis sequi repellat voluptas dolor ipsam voluptatum placeat, ex dolores molestiae quibusdam unde earum, repellendus corporis! Dicta. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In temporibus inventore expedita, exercitationem magnam laboriosam optio ab, aut vitae, recusandae fugit totam illo. Eum nemo reprehenderit nostrum natus ex. Alias!</p>
     </main>
 </body>
