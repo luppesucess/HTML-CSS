@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    font-family: 'Passion One', cursive;
+    font-family: 'Passion One', cursive;    
     font-size: 30px;
     width: 100vw;   
     height: 150px; 
@@ -28,11 +28,72 @@ header {
 
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
+    font-size: 15px;    
+}
+
+header > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
+section > p {
+    margin: 20px;
+}
+
+section#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: -5px -5px -5px rgba(0, 0, 0, 0.068);
 }
 
 section > p {
     font-family: 'Sriracha', cursive;    
-    margin: 40px;
-    line-height: 30px;    
+    line-height: 30px; 
+    padding: 20px;      
+}
+
+section#livro {
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;    
+}
+
+p.transparente {
+    background-color: rgba(255, 255, 255, 0.048);    
+}
+
+footer {
+    height: 30px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+    color: white;
+    text-align: center;  
+    word-spacing: 3px; 
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
