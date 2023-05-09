@@ -62,7 +62,7 @@ section#joaninha {
     background-size: cover;
     background-attachment: fixed;
     color: white;
-    box-shadow: -5px -5px -5px rgba(0, 0, 0, 0.068);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.274);
 }
 
 section > p {
@@ -77,12 +77,14 @@ section#livro {
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    color: white;    
+    color: white; 
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.274);   
 }
 
 p.transparente {
     background-color: rgba(0, 0, 0, 0.377);  
     width: 250px;  
+    text-shadow: 1px 1px 0px black;
 }
 
 footer {
